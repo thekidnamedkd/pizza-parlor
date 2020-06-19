@@ -15,28 +15,28 @@
     <h1>***COOL PIZZA PIE IMG***</h1>
     <form>
       <h3>What size pizza would you like?</h3>
-        <input type="radio" class="form-radio" name="size" id="small" value="size"> Small - $16</br>
-        <input type="radio" class="form-radio" name="size" id="medium" value="size"> Medium -$19</br>
-        <input type="radio" class="form-radio" name="size" id="large" value="size"> Large - $22</br>
+        <input type="radio" class="form-radio" name="size" id="small" value="size" onclick="PizzaPrice();"> Small - $16</br>
+        <input type="radio" class="form-radio" name="size" id="medium" value="size" onclick="PizzaPrice();"> Medium -$19</br>
+        <input type="radio" class="form-radio" name="size" id="large" value="size" onclick="PizzaPrice();"> Large - $22</br>
       <h3>What base would you like for your pizza?</h3>
         <input type="radio" class="form-radio" name="sauce" id="oil" value="sauce"> Olive Oil - $0</br>
         <input type="radio" class="form-radio" name="sauce" id="red" value="sauce"> Red Sauce - $1</br>
         <input type="radio" class="form-radio" name="sauce" id="white" value="sauce"> White Sauce - $2</br>
       <h3>What toppings would you like to add?</h3>
       <h4>Meat - $3/each</h4>
-        <input type="checkbox" class="form-check" id="pepperoni" value="meat"> Pepperoni 
-        <input type="checkbox" class="form-check" id="sausage" value="meat"> Sausage
-        <input type="checkbox" class="form-check" id="bacon" value="meat"> Bacon
+        <input type="checkbox" class="form-check-input" id="pepperoni" value="meat"> Pepperoni 
+        <input type="checkbox" class="form-check-input" id="sausage" value="meat"> Sausage
+        <input type="checkbox" class="form-check-input" id="bacon" value="meat"> Bacon
       <h4>Veggies - $1/each</h4>
-        <input type="checkbox" class="form-check" id="bellpeppers" value="veg"> Bell Peppers
-        <input type="checkbox" class="form-check" id="onions" value="veg"> Onions
-        <input type="checkbox" class="form-check" id="olives" value="veg"> Black Olives
-        <input type="checkbox" class="form-check" id="mushrooms" value="veg"> Mushrooms</br>
-        <input type="checkbox" class="form-check" id="pineapple" value="veg"> Pineapple
-        <input type="checkbox" class="form-check" id="tomatoes" value="veg"> Tomatoes
-        <input type="checkbox" class="form-check" id="jalapenos" value="veg"> Jalapeños</br></br>
+        <input type="checkbox" class="form-check-input" id="bellpeppers" value="veg"> Bell Peppers
+        <input type="checkbox" class="form-check-input" id="onions" value="veg"> Onions
+        <input type="checkbox" class="form-check-input" id="olives" value="veg"> Black Olives
+        <input type="checkbox" class="form-check-input" id="mushrooms" value="veg"> Mushrooms</br>
+        <input type="checkbox" class="form-check-input" id="pineapple" value="veg"> Pineapple
+        <input type="checkbox" class="form-check-input" id="tomatoes" value="veg"> Tomatoes
+        <input type="checkbox" class="form-check-input" id="jalapenos" value="veg"> Jalapeños</br></br>
         <button type="submit" class="btn btn-warning" value="total">ADD PIZZA</button>
-        <button type="submit" class="btn btn-danger" value="clear">CLEAR</button>
+        <button type="reset" class="btn btn-danger" value="clear">CLEAR</button>
         <button type="submit" class="btn btn-success" value="total">GET TOTAL</button>
       <h3 id="total">Total: <span id="sumPrice"></span></h3>
     </form>

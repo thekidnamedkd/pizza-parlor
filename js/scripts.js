@@ -1,4 +1,4 @@
-function PizzaPrice (size, sauce, toppings) {
+function PizzaPrice () {
   this.total = 0
   this.small = 16
   this.medium = 19
@@ -9,25 +9,40 @@ function PizzaPrice (size, sauce, toppings) {
   this.addVegTop = 1
   this.addMeatTop = 3
 
-  if (this.size === "small") {
-    this.total += small
-  } else if (this.size === "medium") {
-    this.total += medium
-  } else if (this.size === "large") {
-    this.total += large
+  if (document.forms[0].size[0].checked == true) {
+    this.total += this.small
+  } else if (document.forms[0].size[1].checked == true) {
+    this.total += this.medium
+  } else if (document.forms[0].size[2].checked === true) {
+    this.total += this.large
   }
-  if (this.sauce === "oil") {
-    this.total += oilSauce
-  } else if (this.sauce === "red") {
-    this.total += redSauce
-  } else if (this.sauce === "white") {
-    this.total += whiteSauce
-  }
-  // for addTop loop
-  // (i=0; i<toppings; i++)
 
-  return total
+  console.log(this.total)
+
+  if (document.forms[0].sauce[0].checked === "true") {
+    this.total += this.small
+  } else if (document.forms[0].sauce[1].checked === "true") {
+    this.total += this.medium
+  } else if (document.forms[0].sauce[2].checked === "true") {
+    this.total += this.large
+  }
+  return PizzaPrice
 }
+  
+  console.log(this.total)
+//   if (this.sauce === "true") {
+//     this.total += this.oilSauce
+//   } else if (this.sauce === "true") {
+//     this.total += this.redSauce
+//   } else if (this.sauce === "true") {
+//     this.total += this.whiteSauce
+//   }
+//   for (i=0; i<addTops; i++)
+//     if()
+
+
+//   return total
+// }
 
 // $(document).ready(function() {
 // event.preventDefault();
