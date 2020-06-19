@@ -29,8 +29,9 @@ function PizzaPrice () {
   console.log(this.total);
   
   for (i=0; i<3; i++) {
-    if(document.forms[0].meat[i].checked === true);
+    if (document.forms[0].meat[i].checked === true) {
       this.total += this.addMeat;
+    } 
     }
     console.log(this.total)
     return PizzaPrice
