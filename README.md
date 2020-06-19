@@ -30,7 +30,7 @@ If the user selects the 'GET TOTAL' button the application will return a total p
 
 ## Setup/Installation Requirements
 
-* _Download or clone repository from GitHub (https://github.com/thekidnamedkd/pizza-parlor/)_
+* _Download or clone repository from GitHub (https://github.com/thekidnamedkd/pizza-parlor/)_ or go to https://thekidnamedkd.github.io/pizza-parlor/ for a hosted version (if so, skip next step)
 * _Boot to browser by executing index.html_
 * _Make selections including size, sauce, toppings_
 * _Hit submit to get a cost for your dream pizza_
@@ -41,6 +41,8 @@ If the user selects the 'GET TOTAL' button the application will return a total p
 * _Will display error in total if 'GET TOTAL' is clicked before there is any value._
 
 * _'CLEAR' button will set total to display '$0' and remove pizza choices but doesn't remove held value until new choices are made. With no new choices, 'GET TOTAL' will show previous value._
+
+* _Hi-res background pizza image not loading to gh-pages branch or possible size limit for hosting._
 
 ## Support and contact details
 
