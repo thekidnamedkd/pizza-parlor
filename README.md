@@ -21,6 +21,9 @@ If the user selects any number of toppings it will add the costs of each topping
   * input: sausage, peppers, onions
   * output: base price + sauce + $3 + $1 + $1
 
+## Wireframe
+![image](/./img/KD_Pizza_WB.jpg)
+
 ## Setup/Installation Requirements
 
 * _Download or clone repository from GitHub (https://github.com/thekidnamedkd/pizza-parlor/)_
