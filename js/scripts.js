@@ -31,18 +31,22 @@ function PizzaPrice () {
   for (i=0; i<3; i++) {
     if (document.forms[0].meat[i].checked === true) {
       this.total += this.addMeat;
-    } 
     }
-    console.log(this.total)
-    return PizzaPrice
+  }
+  console.log(this.total);
+  for (i=0; i<7; i++) {
+    if (document.forms[0].veg[i].checked === true) {
+      this.total += this.addVeg;
+    }
+  }
+  console.log(this.total)
+  return PizzaPrice
 }
 
+function Total () {
+  document.getElementById("sumPrice").innerHTML= "$" + this.total 
+}
 
-
-
-//   return total
-// }
-
-// $(document).ready(function() {
-// event.preventDefault();
-// })
+function Clear () {
+  document.getElementById("sumPrice").innerHTML= "$0" 
+}

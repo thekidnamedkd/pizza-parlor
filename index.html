@@ -13,7 +13,7 @@
   <div class="container">
     <h1>PAPA KD's PIZZA PARLOR</h1>
     <h1>***COOL PIZZA PIE IMG***</h1>
-    <form>
+    <form id="pizzaMenu">
       <h3>What size pizza would you like?</h3>
         <input type="radio" class="form-radio" name="size" id="small" value="size" onclick="PizzaPrice();"> Small - $16</br>
         <input type="radio" class="form-radio" name="size" id="medium" value="size" onclick="PizzaPrice();"> Medium -$19</br>
@@ -35,9 +35,9 @@
         <input type="checkbox" class="form-check-input" name="veg" value="pineapple" onclick="PizzaPrice();"> Pineapple
         <input type="checkbox" class="form-check-input" name="veg" value="tomatoes" onclick="PizzaPrice();"> Tomatoes
         <input type="checkbox" class="form-check-input" name="veg" value="jalapenos" onclick="PizzaPrice();"> Jalapeños</br></br>
-        <button type="submit" class="btn btn-warning" value="total">ADD PIZZA</button>
-        <button type="reset" class="btn btn-danger" value="clear">CLEAR</button>
-        <button type="submit" class="btn btn-success" value="total">GET TOTAL</button>
+        <button type="button" class="btn btn-warning" value="total" onclick>ADD PIZZA</button>
+        <button type="reset" class="btn btn-danger" value="clear" onclick="Clear();">CLEAR</button>
+        <button type="button" class="btn btn-success" value="total" onclick="Total();">GET TOTAL</button>
       <h3 id="total">Total: <span id="sumPrice"></span></h3>
     </form>
   </div>
