@@ -10,8 +10,8 @@ _A whole pizza menu that contains topping options with for small, medium, and la
 
 ## Specs
 If the user selects a pizza it will create a new order and establish a base price for the pizza.
-  * input: 16 in/ 18 in/ 22 inch
-  * input: $19/ $21/ $25
+  * input: 22 inch (large)
+  * output: $22
 
 If the user selects a sauce, it will store the sauce selection and add the cost to the base price.
   * input: white sauce
@@ -20,6 +20,10 @@ If the user selects a sauce, it will store the sauce selection and add the cost 
 If the user selects any number of toppings it will add the costs of each topping to the base price + the sauce.
   * input: sausage, peppers, onions
   * output: base price + sauce + $3 + $1 + $1
+
+If the user selects the 'submit' button the application will return a total price which reflects the user's pizza choices.
+  * input: submit
+  * output: total: $29
 
 ## Wireframe
 ![image](/./img/KD_Pizza_WB.jpg)
