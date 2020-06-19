@@ -21,7 +21,7 @@ If the user selects any number of toppings it will add the costs of each topping
   * input: sausage, peppers, onions
   * output: base price + sauce + $3 + $1 + $1
 
-If the user selects the 'submit' button the application will return a total price which reflects the user's pizza choices.
+If the user selects the 'GET TOTAL' button the application will return a total price which reflects the user's pizza choices.
   * input: submit
   * output: total: $29
 
@@ -38,7 +38,9 @@ If the user selects the 'submit' button the application will return a total pric
 
 ## Known Bugs
 
-_No known bugs at this time._
+* _Will display error in total if 'GET TOTAL' is clicked before there is any value._
+
+* _'CLEAR' button will set total to display '$0' and remove pizza choices but doesn't remove held value until new choices are made. With no new choices, 'GET TOTAL' will show previous value._
 
 ## Support and contact details
 
