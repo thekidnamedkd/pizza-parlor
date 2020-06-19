@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(255, 245, 226);
+}
+.jumbotron {
+  background-image: url(/img/pizza-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: black solid 5px;
+  background-color: rgb(236, 185, 176);
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 95px;
+  text-shadow: 3px 3px white;
+  style
+}
+
+h3 {
+  text-shadow: 1px 1px tomato;
+}
+
+button {
+  margin-top: 20px;
+}
