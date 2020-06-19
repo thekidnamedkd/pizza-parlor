@@ -1,24 +1,32 @@
-function Pizza (size, sauce, toppings) {
-  this.size = size
-  this.sauce = sauce
-  this.toppings = toppings
-}
+function PizzaPrice (size, sauce, toppings) {
+  this.total = 0
+  this.small = 19
+  this.medium = 22
+  this.large = 25
+  this.oilSauce = 0
+  this.redSauce = 1
+  this.whiteSauce = 2
+  this.addTop = 1
 
-Pizza.prototype.price = function() {
-  this.price = 16
   if (this.size === "small") {
-    this.price += 3
+    total += small
   } else if (this.size === "medium") {
-    this.price += 6
+    total += medium
   } else if (this.size === "large") {
-    this.price += 9
+    total += large
   }
-}
+  if (this.sauce === "oilSauce") {
+    total += oilSauce
+  } else if (this.sauce === "redSauce") {
+    total += redSauce
+  } else if (this.sauce === "whiteSauce") {
+    total += whiteSauce
+  }
+  // for addTop loop
+  // (i=0; i<toppings; i++)
 
-// let size
-// let sauce
-// let toppings
-// let pizza
+  return total
+}
 
 // $(document).ready(function() {
 // event.preventDefault();
