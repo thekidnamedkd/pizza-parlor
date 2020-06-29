@@ -6,7 +6,7 @@
 
 ## Description
 
-_A whole pizza menu that contains topping options with for small, medium, and large pizzas. The website will calculate the cost based on a formula of the user's selections._
+_A whole pizza menu that contains topping options for small, medium, and large pizzas. The website will calculate the cost based on a formula of the user's selections._
 
 ## Specs
 If the user selects a pizza it will create a new order and establish a base price for the pizza.
@@ -33,14 +33,12 @@ If the user selects the 'GET TOTAL' button the application will return a total p
 * _Download or clone repository from GitHub (https://github.com/thekidnamedkd/pizza-parlor/)_ or go to https://thekidnamedkd.github.io/pizza-parlor/ for a hosted version (if so, skip next step)
 * _Boot to browser by executing index.html_
 * _Make selections including size, sauce, toppings_
-* _Hit submit to get a cost for your dream pizza_
+* _Hit submit to get the cost for your dream pizza_
 * _Try different selections for different pricing_
 
 ## Known Bugs
 
-* _Will display error in total if 'GET TOTAL' is clicked before there is any value._
-
-* _'CLEAR' button will set total to display '$0' and remove pizza choices but doesn't remove held value until new choices are made. With no new choices, 'GET TOTAL' will show previous value._
+* _'CLEAR' button will not remove previous price until new submission is made._
 
 * _Hi-res background pizza image not loading to gh-pages branch or possible size limit for hosting._
 
